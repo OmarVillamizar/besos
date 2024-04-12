@@ -1,7 +1,7 @@
 let contador = 0; 
 
 function sumarBeso() {
-    contador++; 
+    contador+=10; 
     document.querySelector('label').innerText = 'Besos que te debo: ' + contador; 
 }
 
